@@ -22,8 +22,7 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="auth-buttons">
-                <button class="auth-button login-button" id="loginButton">Login</button>
-                <button class="auth-button register-button" id="registerButton">Register</button>
+                <button class="auth-button_login-button" id="loginButton">Login</button>
             </div>
         </nav>
    
@@ -32,7 +31,9 @@
         <div class="hero-content">
             <p class="nexon">NEXON</p>
             <h2>Innovative Business Solutions by Nexon</h2></br></br>
-            <button onclick="showServices()" class="cta-button">Explore Services</button>
+            <button onclick="showServices()" class="cta-button"><a href="register.html" 
+             style="text-decoration: none; color: inherit;">
+            Get Started</button></a>
         </div>
     </section>
 </header>
@@ -55,41 +56,37 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services">
-        <h2>Our Services</h2>
-        <div class="services-grid">
-            <div class="service-item">
-                <h3>Employee Management System</h3>
-                <p> Manage employee attendance, payroll, task assignments, and performance tracking with customizable dashboards for every role.</p>
-            </div>
-            <div class="service-item">
-                <h3>AI-Powered Business Analytics</h3>
-                <p>Access intelligent insights and forecasts on sales, stocks, business growth, and operational efficiencies with interactive charts and graphs.
-
-                    </p>
-            </div>
-            <div class="service-item">
-                <h3>Project and Task Management</h3>
-                <p>Organize, assign, and monitor projects and tasks with built-in tools to improve team collaboration and ensure timely delivery.
-                    </p>
-            </div>
-            <div class="service-item">
-                <h3>Automated Messaging and Alerts</h3>
-                <p> Seamlessly communicate with employees and receive reminders, event updates, and notifications through smart messaging tools.
-                </p>
-            </div>
-            <div class="service-item">
-                <h3>Enterprise Calendar and Events</h3>
-                <p></p>Plan and track company-wide events, deadlines, and meetings with a centralized event calendar integrated with task reminders and alerts.  
-
-            </p>
-            </div>
-            <!-- <div class="service-item"> -->
-                <!-- <h3>Detailing</h3> -->
-                <!-- <p>Exterior and interior detailing, ceramic coating, PPF, rim detailing, and headlight restoration.</p> -->
-            <!-- </div> -->
+    <!-- Services Section -->
+<!-- Services Section -->
+<section id="services" class="services">
+    <h2>
+        Services
+    </h2>
+    <div class="services-grid">
+        <div class="service-item">
+            <h3>Employee Management System</h3>
+            <p>Manage employee attendance, payroll, task assignments, and performance tracking with customizable dashboards for every role.</p>
         </div>
-    </section>
+        <div class="service-item">
+            <h3>AI-Powered Business Analytics</h3>
+            <p>Access intelligent insights and forecasts on sales, stocks, business growth, and operational efficiencies with interactive charts and graphs.</p>
+        </div>
+        <div class="service-item">
+            <h3>Project and Task Management</h3>
+            <p>Organize, assign, and monitor projects and tasks with built-in tools to improve team collaboration and ensure timely delivery.</p>
+        </div>
+        <div class="service-item">
+            <h3>Automated Messaging and Alerts</h3>
+            <p>Seamlessly communicate with employees and receive reminders, event updates, and notifications through smart messaging tools.</p>
+        </div>
+        <div class="service-item">
+            <h3>Enterprise Calendar and Events</h3>
+            <p>Plan and track company-wide events, deadlines, and meetings with a centralized event calendar integrated with task reminders and alerts.</p>
+        </div>
+    </div>
+</section>
+
+
 
     <!-- Team Section -->
     <section id="team" class="team">
@@ -135,6 +132,6 @@
         <p>&copy; Nexon. All rights reserved.</p>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="js_files/app.js"></script>
 </body>
 </html>
